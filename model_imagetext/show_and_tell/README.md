@@ -18,14 +18,14 @@
 #### baseline 진행상황
 현재 flicker 8k를 사용하여 진행 <br>
 <br>
-image file + caption.txt 로 구성되어 있으며 <br>
-위 코드에 적용하기 위해 caption.txt는 json 파일로 변환하여 진행 <br>
-caption.txt 의 형태 <br>
+image file + caption.txt 로 구성되어 있으며 <br><br>
+위 코드에 적용하기 위해 caption.txt는 json 파일로 변환하여 진행 <br><br>
+caption.txt 의 형태 <br><br>
 columns    image        caption <br>
            image_이름   문장 <br>
-
+<br>
 but cuda of memory 문제로 인해 학습 진행이 안됨....
-
+<br>
 
 
 ## <해야할일>...
@@ -42,5 +42,5 @@ but cuda of memory 문제로 인해 학습 진행이 안됨....
 - 결과 값을 어떻게 추천에 활용할 것인지? (text 유사도? encoder 부분만 사용한다거나?)
 
 
-<데이터 출처 : https://www.kaggle.com/kunalgupta2616/flickr-8k-images-with-captions>
+<데이터 출처 : https://www.kaggle.com/kunalgupta2616/flickr-8k-images-with-captions> <br>
 <코드 출저: https://github.com/Pillercottrer/radcap_project>
