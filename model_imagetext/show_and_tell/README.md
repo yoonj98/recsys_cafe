@@ -40,7 +40,9 @@ but cuda of memory 문제로 인해 학습 진행이 안됨....
 
 #### 2. 생각해볼문제
 - 결과 값을 어떻게 추천에 활용할 것인지? (text 유사도? encoder 부분만 사용한다거나?)
+- 네이버의 kor2vec(https://github.com/naver/kor2vec)을 사용하면 어떨까? 
 
 
 <데이터 출처 : https://www.kaggle.com/kunalgupta2616/flickr-8k-images-with-captions> <br>
 <코드 출저: https://github.com/Pillercottrer/radcap_project>
+
