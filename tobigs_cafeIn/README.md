@@ -1,47 +1,29 @@
-```
-┌───────────────────────────────────────────────┐
-                                       _       
-     __ _  ___   ___  _ __ _ __ ___   (_) ___  
-    / _` |/ _ \ / _ \| '__| '_ ` _ \  | |/ _ \ 
-   | (_| | (_) | (_) | |  | | | | | |_| | (_) |
-    \__, |\___/ \___/|_|  |_| |_| |_(_)_|\___/ 
-    |___/                                      
-			     🌩 𝘼𝙣𝙮𝙤𝙣𝙚 𝙘𝙖𝙣 𝙙𝙚𝙫𝙚𝙡𝙤𝙥!
-└───────────────────────────────────────────────┘
-```
+# 카페-인 웹 데모 백엔드 서버
 
-# goormIDE
-Welcome to goormIDE!
+## 개요
+카페인 웹 데모 백엔드 서버 코드입니다. `Django` 로 작성되었습니다.
 
-goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams.  
-**DEVELOP WITH EXCELLENCE**  
+서비스를 실행시키기 위해서 다음 명령어를 실행하세요
 
-`Happy coding! The goormIDE team`
+`python3 manage.py runserver`
+
+## 디렉토리
+
+프로젝트는 다음 디렉토리로 이루어져 있습니다.
+- `main` : 기본 API를 담당하는 앱입니다.
+    - `main/model` : 카페-인 모델이 저장되어 있습니다.
+    - `main/views.py` : 모델 추론 코드가 저장되어 있습니다.
+- `tobigs_cafeIn` : 설정 페이지입니다.
 
 
-## 🔧 Tip & Guide
+## API 코드
+프로젝트는 다음 API 통신을 지원합니다.
 
-* Command feature
-	* You can simply run your script using the shortcut icons on the top right.
-	* Check out `PROJECT > Common/Build/Run/Test/Find Command` in the top menu.
-	
-* Get URL and Port
-	* Click `PROJECT > URL/PORT` in top menu bar.
-	* You can get default URL/Port and add URL/Port in the top menu.
+|url|method|description|parameter|return|
+|:---:|:---:|:---:|:---:|:---:|
+|`main/status`|`GET`|API 상태 체크|없음|`{"status":"OK"}`|
+|`main/result`|`POST`|모델 추론|`{"img":<업로드된 파일>}`|`{"value":<모델 추론 결과>}`|
+|`main/getImg`|`GET`|아이디에 해당되는 카페 이미지 반환|`{"imgId": <이미지 파일 이름>}`|이미지 파일|
 
-* Useful shortcut
-	
-| Shortcuts name     | Command (Mac) | Command (Window) |
-| ------------------ | :-----------: | :--------------: |
-| Copy in Terminal   | ⌘ + C         | Ctrl + Shift + C |
-| Paste in Terminal  | ⌘ + V         | Ctrl + Shift + V |
-| Search File        | ⌥ + ⇧ + F     | Alt + Shift + F  |
-| Terminal Toggle    | ⌥ + ⇧ + B     | Alt + Shift + B  |
-| New Terminal       | ⌥ + ⇧ + T     | Alt + Shift + T  |
-| Code Formatting    | ⌥ + ⇧ + P     | Alt + Shift + P  |
-| Show All Shortcuts | ⌘ + H         | Ctrl + H         |
 
-## 💬 Support & Documentation
-
-Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
-To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+오류 코드는 생략합니다.

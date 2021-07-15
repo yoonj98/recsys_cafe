@@ -255,6 +255,7 @@ def classification():
 def caption():
     model = Net()
     model.to(device)
+    model.eval()  
     model.load_state_dict(torch.load(location+'show_and_tell_final_model/show_and_tell_final.pt', map_location=device))
     return model
 
@@ -268,7 +269,7 @@ def image_plus(df, img_dir, img_name):
 
         dist_mtx = euclidean_distances(tag_review_embeddings,tag_review_embeddings)
 
-        plt.imshow(Image.open(img_name))
+        plt.imshow(Image.open(location+ 'img_final/MND COFFEE_2.jpg'))
         plt.show()
         # 가장 가까운 것의 인덱스를 제공해준다
         # ex target_idx가 200이라면, 첫 인덱스는 200
@@ -289,6 +290,7 @@ def image_plus(df, img_dir, img_name):
         
 
     else:
+        print('######## else ########')
         transform = transforms.Compose(
             [transforms.ToTensor(), # 텐서로 변형
              transforms.Resize(224), # 사이즈 조절
@@ -302,6 +304,9 @@ def image_plus(df, img_dir, img_name):
         
         # image 사이즈 변경
         #image=Image.open(img_dir)
+        #img = Image.open(img_name).convert("RGB")
+        
+        #img = Image.open(location+ 'img_final/MND COFFEE_2.jpg').convert("RGB")
         img = Image.open(img_name).convert("RGB")
         img = transform(img)
         img = img.unsqueeze(0)
@@ -348,12 +353,20 @@ if __name__ == "__main__": # 별도 실행을 위해 남겨놓음
     # mobile_net_model = classification()
     # show_and_tell_model = caption()
     #image_plus(df,location+'img_final/', '&meal_1.jpg')
-    print(location)
-    close_list = image_plus(df, location+'img_final/', '/img_final/36.5도여름_3.jpg')
-    print(df.loc[close_list, :])
+    
+    #print(location)
+    
+    #close_list = image_plus(df, location+'img_final/', location+ 'img_final/36.5도여름_3.jpg')
+    #close_list = image_plus(df, location+'img_final/', location+ 'img_final/MND COFFEE_2.jpg')
+    close_list = image_plus(df, location+'img_final/', 'MND COFFEE_2.jpg')
+    
+    #print(df.loc[close_list, :])
+    
     data_dict = {}
     for index in close_list:
         data_dict[index] = df.loc[index, :]
-    print(data_dict)
+    
+    #print(data_dict)
+    #print(close_list)
 
 

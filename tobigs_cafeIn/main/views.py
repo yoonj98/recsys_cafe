@@ -18,6 +18,11 @@ def result(request):
         # model 임포트했으니까 이런 식으로 사용하면 될 듯?
         target = request.FILES['img'].read() # 업로드된 이미지 - read()의 결과로 바이트 인코딩된 이미지 전송
         img = io.BytesIO(target) # 바이트 인코딩된 이미지 입력
+        
+        # 영상찍기 위해 임시적 사용 Start
+        # img = 'MND COFFEE_2.jpg'
+        # 영상찍기 위해 임시적 사용 End
+        
         location = "main/model/"
         df = pd.read_csv(location + 'final_df_link_j.csv')
         close_list = model.image_plus(df, location+'img_final/',img) # 바이트 인코딩된 이미지를 Image.read()가 읽으면 이미지 처럼 사용할 수 있음.
@@ -40,9 +45,7 @@ def result(request):
 @csrf_exempt
 def status(request):
     # api서버 상태 체크용
-    testArr = [{'review_cafename': '쥬씨 서울시립대점', 'link': 'https://www.diningcode.com/profile.php?rid=V7Rhg37s4yx3'}, {'review_cafename': '17도씨', 'link':
-'https://www.diningcode.com/profile.php?rid=ULkIg7tIGmky'}, {'review_cafename': 'Six Degrees Coffee', 'link': 'https://www.diningcode.com/profile.php?rid=QMtadMGwoN9X'}, {'review_cafename': '파오파오차', 'link': 'https://www.diningcode.com/profile.php?rid=ZQ4WJPvmNoZV'}, {'review_cafename': '파브커피', 'link': 'https://www.diningcode.com/profile.php?rid=CTB77NNnELIv'}]
-    return JsonResponse({"value": testArr})
+    return JsonResponse({"status": "OK"})
 
 
 def getImg(request):
