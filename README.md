@@ -55,9 +55,13 @@
 
 ## Web Demo
 
-[ 웹 데모](https://cafein-tobigs.netlify.app/)를 통해 직접 체험해보세요!
+[ 웹 데모](https://cafein-tobigs.netlify.app/)를 통해 직접 체험해보세요! <br><br>
+이미지를 클릭하면 **Web Demo reposit**으로 연결됩니다.
 
-![image](https://user-images.githubusercontent.com/67720742/125878431-c0f9dc87-94f7-41c4-aba2-5e393b1d521a.png)
+
+<a href="https://github.com/YMGYM/tobigs_cafein_react_app" height="5" width="10" target="_blank">
+	<img src="https://user-images.githubusercontent.com/67720742/125878431-c0f9dc87-94f7-41c4-aba2-5e393b1d521a.png" alt="위의 이미지를 누르면 연결됩니다.">
+<a>
 
 
 ## Presentation
