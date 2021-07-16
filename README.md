@@ -3,8 +3,8 @@
 2021.07.17 **[제 12회 투빅스 컨퍼런스]** 발표작
 ![Cafe-In 일단 완성 - 수정_1](https://user-images.githubusercontent.com/67720742/125875074-9096eb63-dd38-4423-b3fd-ae7f4d504121.png)
 - **카페 이미지**를 넣으면, 유사한 느낌의 **카페를 추천**해주는 서비스입니다.
-- 이미지뿐만 아니라 기존 카페 이용고객들의 **리뷰**와 **태그 데이터**를 활용합니다.
-- 다이닝코드 데이터 기반으로 진행하였으며, 상업적으로 이용할 의도가 전혀 없음을 밝힙니다. (넣을지말지)
+- **이미지뿐만 아니라** 기존 카페 이용고객들의 **리뷰**와 **태그 데이터**를 활용합니다.
+- 다이닝코드 데이터 기반으로 진행하였으며, 상업적으로 이용할 의도가 전혀 없음을 밝힙니다.
 
 <br>
 
@@ -31,7 +31,9 @@
 │     └───tag_train.py
 
 ```
-**show_and_tell_model.py** : show and tell 모델이 정의된 코드입니다 <br><br>
+**crawling.py** : 다이닝코드 데이터 크롤링 코드입니다.<br><br>
+**preprocess.py** : 리뷰데이터 토크나이즈 및 데이터 클렌징 코드입니다. <br><br>
+**show_and_tell_model.py** : show and tell 모델이 정의된 코드입니다. <br><br>
 **show_and_tell_proprecess.py** : 데이터 전처리 및 kor2vec embedding을 만들고 저장하고 show and tell 모델에 적용시키기 위한 dataloader를 만드는 코드입니다. <br><br>
 **show_and_tell_train.py** : show_and_tell 모델을 학습시키기 위한 코드입니다. <br><br>
 **show_and_Tell_embedding.py** : 학습된 show_and_tell 모델에서 review와 image가 들어가있는 embedding을 추출하는 코드입니다. <br><br>
@@ -80,4 +82,4 @@
     <td align="center"><a href="https://github.com/yoonj98"><img src="https://user-images.githubusercontent.com/67720742/125877317-9c91c97c-2916-4bd3-a20b-fdbe9b1dc498.jpg" width="150" height="150"><br /><sub><b>이윤정</b></sub></td>
     <td align="center"><a href="https://github.com/KimHyeon-Ji"><img src="https://user-images.githubusercontent.com/67720742/125877372-c051d315-4e93-47d1-81fb-02d0a4a2332c.jpg" width="150" height="150"><br /><sub><b>김현지</b></sub></td>
     <td align="center"><a href="https://github.com/jaeyoung-kang"><img src="https://user-images.githubusercontent.com/67720742/125877506-e74f752f-3842-47d0-ab18-13dfb6680dc2.png" width="150" height="150"><br /><sub><b>강재영</b></sub></td>
-    <td align="center"><a href="https://github.com/Yu-Jin22"><img src="" width="150" height="150"><br /><sub><b>이원도</b></sub></td>
+    <td align="center"><a href="https://github.com/stillpsy"><img src="https://user-images.githubusercontent.com/67720742/125895509-e2d0f432-b23f-498a-925a-46a52e9bbd2b.png" width="150" height="150"><br /><sub><b>이원도</b></sub></td>
