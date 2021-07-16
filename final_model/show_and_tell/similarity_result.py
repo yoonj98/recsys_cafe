@@ -17,8 +17,8 @@ import argparse
 tag_dir_loc="/content/drive/MyDrive/14,15 추천컨퍼런스/tag"
 
 sys.path.append(tag_dir_loc)
-from mobilenet import *
-from dataloader import *
+from tag_mobilenet import *
+from tag_dataloader import *
 
 
 location = '/content/drive/MyDrive/14,15 추천컨퍼런스/'
