@@ -69,15 +69,15 @@
 <table>
   <tr>
     <td align="center"><a href="https://github.com/pjy970108"><img src="https://user-images.githubusercontent.com/67720742/125877128-50deb393-24ea-4ec0-a002-341f31f76156.jpg" width="150" height="150"><br /><sub><b>박준영</b></sub></td>
-    <td align="center"><a href="https://github.com/simba-pumba"><img src="https://user-images.githubusercontent.com/67720742/125877217-f8d4d731-e5a9-41f6-8820-5223a4d6b0c6.jpg" width="150" height="150"><br /><sub><b>강지우</b></sub></td>
-    <td align="center"><a href="https://github.com/yourmean"><img src="https://user-images.githubusercontent.com/67720742/125877246-efaefdef-e61a-4e96-8aad-d38efa95b71e.jpg" width="150" height="150"><br /><sub><b>한유진</b></sub></td>
-    <td align="center"><a href="https://github.com/lilly9117"><img src="https://user-images.githubusercontent.com/67720742/125877285-c0b3eac0-27c7-405d-85fb-2c5cf80e5c12.jpg" width="150" height="150"><br /><sub><b>안민준</b></sub></td>
+    <td align="center"><a href="https://github.com/jiwoo0212"><img src="https://user-images.githubusercontent.com/67720742/125877217-f8d4d731-e5a9-41f6-8820-5223a4d6b0c6.jpg" width="150" height="150"><br /><sub><b>강지우</b></sub></td>
+    <td align="center"><a href="https://github.com/Yu-JIn22"><img src="https://user-images.githubusercontent.com/67720742/125877246-efaefdef-e61a-4e96-8aad-d38efa95b71e.jpg" width="150" height="150"><br /><sub><b>한유진</b></sub></td>
+    <td align="center"><a href="https://github.com/https://github.com/YMGYM"><img src="https://user-images.githubusercontent.com/67720742/125877285-c0b3eac0-27c7-405d-85fb-2c5cf80e5c12.jpg" width="150" height="150"><br /><sub><b>안민준</b></sub></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/mink7878"><img src="https://user-images.githubusercontent.com/67720742/125877317-9c91c97c-2916-4bd3-a20b-fdbe9b1dc498.jpg" width="150" height="150"><br /><sub><b>이윤정</b></sub></td>
-    <td align="center"><a href="https://github.com/shkim960520"><img src="https://user-images.githubusercontent.com/67720742/125877372-c051d315-4e93-47d1-81fb-02d0a4a2332c.jpg" width="150" height="150"><br /><sub><b>김현지</b></sub></td>
-    <td align="center"><a href="https://github.com/Jeong-JaeYoon"><img src="https://user-images.githubusercontent.com/67720742/125877506-e74f752f-3842-47d0-ab18-13dfb6680dc2.png" width="150" height="150"><br /><sub><b>강재영</b></sub></td>
+    <td align="center"><a href="https://github.com/yoonj98"><img src="https://user-images.githubusercontent.com/67720742/125877317-9c91c97c-2916-4bd3-a20b-fdbe9b1dc498.jpg" width="150" height="150"><br /><sub><b>이윤정</b></sub></td>
+    <td align="center"><a href="https://github.com/KimHyeon-Ji"><img src="https://user-images.githubusercontent.com/67720742/125877372-c051d315-4e93-47d1-81fb-02d0a4a2332c.jpg" width="150" height="150"><br /><sub><b>김현지</b></sub></td>
+    <td align="center"><a href="https://github.com/jaeyoung-kang"><img src="https://user-images.githubusercontent.com/67720742/125877506-e74f752f-3842-47d0-ab18-13dfb6680dc2.png" width="150" height="150"><br /><sub><b>강재영</b></sub></td>
     <td align="center"><a href="https://github.com/Yu-Jin22"><img src="" width="150" height="150"><br /><sub><b>이원도</b></sub></td>
