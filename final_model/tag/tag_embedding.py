@@ -18,8 +18,8 @@ import os
 import pandas as pd
 from keras.preprocessing.image import load_img,img_to_array
 
-from mobilenet import *
-from dataloader import *
+from tag_mobilenet import *
+from tag_dataloader import *
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 

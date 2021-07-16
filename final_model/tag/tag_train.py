@@ -18,8 +18,8 @@ import torchvision.datasets as datasets
 import os
 from torchsummary import summary as summary_
 
-from dataloader import *
-from mobilenet import *
+from tag_dataloader import *
+from tag_mobilenet import *
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 location = '/content/drive/MyDrive'
