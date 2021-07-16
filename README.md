@@ -71,7 +71,7 @@
     <td align="center"><a href="https://github.com/pjy970108"><img src="https://user-images.githubusercontent.com/67720742/125877128-50deb393-24ea-4ec0-a002-341f31f76156.jpg" width="150" height="150"><br /><sub><b>박준영</b></sub></td>
     <td align="center"><a href="https://github.com/jiwoo0212"><img src="https://user-images.githubusercontent.com/67720742/125877217-f8d4d731-e5a9-41f6-8820-5223a4d6b0c6.jpg" width="150" height="150"><br /><sub><b>강지우</b></sub></td>
     <td align="center"><a href="https://github.com/Yu-JIn22"><img src="https://user-images.githubusercontent.com/67720742/125877246-efaefdef-e61a-4e96-8aad-d38efa95b71e.jpg" width="150" height="150"><br /><sub><b>한유진</b></sub></td>
-    <td align="center"><a href="https://github.com/https://github.com/YMGYM"><img src="https://user-images.githubusercontent.com/67720742/125877285-c0b3eac0-27c7-405d-85fb-2c5cf80e5c12.jpg" width="150" height="150"><br /><sub><b>안민준</b></sub></td>
+    <td align="center"><a href="https://github.com/YMGYM"><img src="https://user-images.githubusercontent.com/67720742/125877285-c0b3eac0-27c7-405d-85fb-2c5cf80e5c12.jpg" width="150" height="150"><br /><sub><b>안민준</b></sub></td>
   </tr>
 </table>
 
