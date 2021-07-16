@@ -1,9 +1,7 @@
-<br><br>
-![image](https://user-images.githubusercontent.com/67720742/125874259-83d76782-bf2b-4a27-a035-688303aa645f.png)
-
 # 카페인(Cafe-in)
 ### 너는 내 취향저격, 이미지 기반 카페 추천시스템
 2021.07.17 **[제 12회 투빅스 컨퍼런스]** 발표작
+![Cafe-In 일단 완성 - 수정_1](https://user-images.githubusercontent.com/67720742/125875074-9096eb63-dd38-4423-b3fd-ae7f4d504121.png)
 - **카페 이미지**를 넣으면, 유사한 느낌의 **카페를 추천**해주는 서비스입니다.
 - 이미지뿐만 아니라 기존 카페 이용고객들의 **리뷰**와 **태그 데이터**를 활용합니다.
 - 다이닝코드 데이터 기반으로 진행하였으며, 상업적으로 이용할 의도가 전혀 없음을 밝힙니다. (넣을지말지)
@@ -53,34 +51,33 @@
 
 <br>
 
+## Web Demo
+
+[웹 데모](https://cafein-tobigs.netlify.app/)를 통해 직접 체험해보세요!
+
+![image](https://user-images.githubusercontent.com/67720742/125878431-c0f9dc87-94f7-41c4-aba2-5e393b1d521a.png)
+
+
 ## Presentation
 저희 프로젝트에 대해 자세하게 알고 싶으시다면, 프로젝트 설명자료를 참고해주세요. 
-** 여기에 PDF 파일 임베딩해서 넣고싶다 **
-** 여기에 유튜브 링크도 첨부 **
+* [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Quip&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
+* [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/KPS1sD_lcMc)](https://youtu.be/KPS1sD_lcMc)
 
 
 ## Contributors
 빅데이터 동아리 **[ToBig's](http://www.datamarket.kr/xe/)** 멤버들이 함께한 프로젝트입니다.
 <table>
   <tr>
-    #준영
-    <td align="center"><a href="https://github.com/pjy970108"><img src="https://user-images.githubusercontent.com/41895063/104710310-45d68e80-5763-11eb-8bca-3d11bab3f636.png" width="150" height="150"><br /><sub><b>박준영</b></sub></td>
-      #지우
-    <td align="center"><a href="https://github.com/simba-pumba"><img src="https://user-images.githubusercontent.com/41895063/104711155-576c6600-5764-11eb-8a1e-a7a011cfe17d.png" width="150" height="150"><br /><sub><b>강지우</b></sub></td>
-      #유진
-    <td align="center"><a href="https://github.com/yourmean"><img src="https://user-images.githubusercontent.com/41895063/104711276-7cf96f80-5764-11eb-8473-99c5c0dc8a8a.png" width="150" height="150"><br /><sub><b>한유진</b></sub></td>
-      #민준
-    <td align="center"><a href="https://github.com/lilly9117"><img src="https://user-images.githubusercontent.com/41895063/104711018-29872180-5764-11eb-9858-53c5f4cc26e4.png" width="150" height="150"><br /><sub><b>안민준</b></sub></td>
+    <td align="center"><a href="https://github.com/pjy970108"><img src="https://user-images.githubusercontent.com/67720742/125877128-50deb393-24ea-4ec0-a002-341f31f76156.jpg" width="150" height="150"><br /><sub><b>박준영</b></sub></td>
+    <td align="center"><a href="https://github.com/simba-pumba"><img src="https://user-images.githubusercontent.com/67720742/125877217-f8d4d731-e5a9-41f6-8820-5223a4d6b0c6.jpg" width="150" height="150"><br /><sub><b>강지우</b></sub></td>
+    <td align="center"><a href="https://github.com/yourmean"><img src="https://user-images.githubusercontent.com/67720742/125877246-efaefdef-e61a-4e96-8aad-d38efa95b71e.jpg" width="150" height="150"><br /><sub><b>한유진</b></sub></td>
+    <td align="center"><a href="https://github.com/lilly9117"><img src="https://user-images.githubusercontent.com/67720742/125877285-c0b3eac0-27c7-405d-85fb-2c5cf80e5c12.jpg" width="150" height="150"><br /><sub><b>안민준</b></sub></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    #이윤정
-    <td align="center"><a href="https://github.com/mink7878"><img src="https://user-images.githubusercontent.com/55529646/104719170-6a386800-576f-11eb-8b55-36b524c4d166.jpg" width="150" height="150"><br /><sub><b>이윤정</b></sub></td>
-      #김현지
-    <td align="center"><a href="https://github.com/shkim960520"><img src="https://user-images.githubusercontent.com/55529646/104719176-6d335880-576f-11eb-849f-4d6756824d68.jpg" width="150" height="150"><br /><sub><b>김현지</b></sub></td>
-      #강재영
-    <td align="center"><a href="https://github.com/Jeong-JaeYoon"><img src="https://user-images.githubusercontent.com/55529646/104719173-6b699500-576f-11eb-9a42-a8569be057bc.jpg" width="150" height="150"><br /><sub><b>강재영</b></sub></td>
-      #이원도
-    <td align="center"><a href="https://github.com/Yu-Jin22"><img src="https://user-images.githubusercontent.com/41895063/104711416-afa36800-5764-11eb-85c1-1a9ad50033b7.png" width="150" height="150"><br /><sub><b>이원도</b></sub></td>
+    <td align="center"><a href="https://github.com/mink7878"><img src="https://user-images.githubusercontent.com/67720742/125877317-9c91c97c-2916-4bd3-a20b-fdbe9b1dc498.jpg" width="150" height="150"><br /><sub><b>이윤정</b></sub></td>
+    <td align="center"><a href="https://github.com/shkim960520"><img src="https://user-images.githubusercontent.com/67720742/125877372-c051d315-4e93-47d1-81fb-02d0a4a2332c.jpg" width="150" height="150"><br /><sub><b>김현지</b></sub></td>
+    <td align="center"><a href="https://github.com/Jeong-JaeYoon"><img src="https://user-images.githubusercontent.com/67720742/125877506-e74f752f-3842-47d0-ab18-13dfb6680dc2.png" width="150" height="150"><br /><sub><b>강재영</b></sub></td>
+    <td align="center"><a href="https://github.com/Yu-Jin22"><img src="" width="150" height="150"><br /><sub><b>이원도</b></sub></td>
