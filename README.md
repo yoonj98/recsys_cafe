@@ -55,7 +55,7 @@
 
 [ 웹 데모](https://cafein-tobigs.netlify.app/)를 통해 직접 체험해보세요!
 
-![image](https://user-images.githubusercontent.com/67720742/125878431-c0f9dc87-94f7-41c4-aba2-5e393b1d521a.png)(https://cafein-tobigs.netlify.app/)
+![image](https://user-images.githubusercontent.com/67720742/125878431-c0f9dc87-94f7-41c4-aba2-5e393b1d521a.png)
 
 
 ## Presentation
