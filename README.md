@@ -17,18 +17,19 @@
 │   ├───crawling.py
 │   └───preprocess.py
 │   
-├── final_model
-│   ├── show_and_tell
-│     ├───show_and_tell_proprecess.py
-│     ├───show_and_tell_embedding.py
-│     ├───show_and_tell_model.py
-│     ├───show_and_tell_train.py
-│     └───similarity_result.py
-│   ├── tag   
-│     ├───tag_dataloader.py
-│     ├───tag_embedding.py
-│     ├───tag_mobilenet.py
-│     └───tag_train.py
+└── final_model
+    ├── show_and_tell
+    │   ├───show_and_tell_proprecess.py
+    │   ├───show_and_tell_embedding.py
+    │   ├───show_and_tell_model.py
+    │   ├───show_and_tell_train.py
+    │   └───similarity_result.py
+    │
+    └── tag   
+        ├───tag_dataloader.py
+        ├───tag_embedding.py
+        ├───tag_mobilenet.py
+        └───tag_train.py
 
 ```
 **crawling.py** : 다이닝코드 데이터 크롤링 코드입니다.<br><br>
